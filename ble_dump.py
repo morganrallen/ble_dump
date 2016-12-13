@@ -101,7 +101,7 @@ if __name__ == '__main__':
   (opts, args) = init_opts(gr_block)
 
   if not opts.pcap_file:
-    print '\nerror: please specify pcap output file (-p)'
+    print '\nerror: please specify pcap output file (-o)'
     exit(1)
 
   # Verify BLE channels argument
